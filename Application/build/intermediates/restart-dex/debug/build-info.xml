@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="35833651869207"
+    token="722639847695927087"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="424" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="53" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="35806946734055"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/outputs/apk/Application-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="35833651869207"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
