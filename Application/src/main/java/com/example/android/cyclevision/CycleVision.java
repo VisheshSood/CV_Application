@@ -4,6 +4,7 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -11,6 +12,8 @@ import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -22,6 +25,9 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.GridLayout;
+import android.widget.GridView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,6 +51,7 @@ public class CycleVision extends Fragment {
     private Button mSendButton;
     private TextView mHeartRate;
     private TextView mSpeed;
+    private GridLayout mGrid;
 
     /**
      * Name of the connected device
@@ -86,6 +93,7 @@ public class CycleVision extends Fragment {
             Toast.makeText(activity, "Bluetooth is not available", Toast.LENGTH_LONG).show();
             activity.finish();
         }
+
     }
 
 
@@ -140,8 +148,28 @@ public class CycleVision extends Fragment {
         mHeartRate.setText("Initialized");
         mSpeed = (TextView) view.findViewById(R.id.speed);
         mSpeed.setText("Initialized");
-
+        mGrid = (GridLayout) view.findViewById(R.id.viewGrid);
         // add 2D array of buttons
+        mGrid.removeAllViews();
+
+        Context cntxt = view.getContext();
+        DisplayMetrics metrics = new DisplayMetrics();
+        ((Activity)cntxt).getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        int width = metrics.widthPixels/10;
+        for (int i = 0; i < 100; i++) {
+            Button btn1 = new Button(cntxt);
+            btn1.setMinimumWidth(0);
+            btn1.setMinimumHeight(0);
+            btn1.setMinWidth(width);
+            btn1.setMinHeight(90);
+            btn1.setPadding(0,0,0,0);
+            btn1.setEnabled(false);
+            mGrid.addView(btn1);
+
+
+        }
+
     }
 
     /**
@@ -314,11 +342,11 @@ public class CycleVision extends Fragment {
                 switch(inputMessage.charAt(0)) {
                     case 'h':
                         // update heart
-                        mHeartRate.setText(inputMessage.substring(1, 4));
+                        mHeartRate.setText("Heart Rate: " +inputMessage.substring(1, 4));
                         break;
                     case 's':
                         // update speed
-                        mSpeed.setText(inputMessage.substring(1, 4));
+                        mSpeed.setText("Speed: " +inputMessage.substring(1, 4));
                         break;
                     case 'c':
                         // update grid

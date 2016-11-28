@@ -9,14 +9,14 @@
         android:id="@+id/in"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="invisible"
+        android:visibility="gone"
         android:layout_weight="1"
         android:stackFromBottom="true"
         android:transcriptMode="alwaysScroll" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="94dp"
+        android:layout_height="56dp"
         android:orientation="horizontal"
         android:weightSum="1">
 
@@ -26,7 +26,6 @@
             android:layout_height="wrap_content"
             android:text="heartrate"
             android:textSize="30sp"
-            android:background="@color/cardview_light_background"
             android:layout_weight="0.5"
             android:gravity="center"/>
         />
@@ -38,8 +37,7 @@
             android:layout_marginLeft="10dp"
             android:text="speed"
             android:textSize="30sp"
-            android:background="@color/cardview_dark_background"
-            android:layout_weight="0.46"
+            android:layout_weight="0.50"
             android:gravity="center"/>
         />
     </LinearLayout>
@@ -49,17 +47,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="413dp">
-
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/viewGrid"
+            android:layout_width="wrap_content"
+            android:columnCount="10"
+            android:rowCount="10"
+            android:orientation="horizontal"
+            android:layout_height="463dp">
         </GridLayout>
 
         <EditText
             android:id="@+id/edit_text_out"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"
+            android:visibility="gone"
             android:layout_gravity="bottom"
             android:layout_weight="1" />
 
@@ -67,7 +68,7 @@
             android:id="@+id/button_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"
+            android:visibility="gone"
             android:text="@string/send" />
     </LinearLayout>
 
