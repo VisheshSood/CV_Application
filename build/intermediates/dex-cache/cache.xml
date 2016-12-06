@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/vishesh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_70c8020eecd63b07b8bbaf84ef9a5d3b919bad61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -39,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_99f8ccfc46dfe0ac6d39628122dfa123be133c19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -52,8 +70,26 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="ebefa41d78446a84bea89eea181caec315a30519">
+        sha1="fd140ee0a6ed1a0fc27a903427949d1fabb020bc">
         <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4b66958b05d222a24bab0cdd86b57c93eb9afde0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_0c3736d7dfe382f1fcb19e04b014e450da7e1edf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_b210d0325a190b79bce6441bc5f38df9ba25f95b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -63,6 +99,15 @@
         revision="24.0.1"
         sha1="8a5380ddd58f4f8946ddade4c64dd77de4a836d5">
         <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-24.1.1_e3f74e381e3814b2c8850e91cb9799f2a656f03d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_0369e1356ece07cb7f09b5cd2c03c3a94131057f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -106,53 +151,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="a81ac3e5916fd146c9cf26d5bea3d0b653554d0b">
+        sha1="49f8b9bcc759a0328a7a4796dae1194f445d971b">
         <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_be049f79c3a21161ddf8ee747b5e03e3d8602ab7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/vishesh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_70c8020eecd63b07b8bbaf84ef9a5d3b919bad61/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_99f8ccfc46dfe0ac6d39628122dfa123be133c19/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_0c3736d7dfe382f1fcb19e04b014e450da7e1edf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_b210d0325a190b79bce6441bc5f38df9ba25f95b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_0369e1356ece07cb7f09b5cd2c03c3a94131057f/classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -30,7 +30,7 @@ MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/vishesh/Android/Cyc
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
 	android:label
-		ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:14:9-37
 	android:allowBackup
 		ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:12:9-35
 	android:icon
@@ -40,7 +40,7 @@ MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/vishesh/
 activity#com.example.android.CycleVision.MainActivity
 ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:17:9-25:20
 	android:label
-		ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:20:13-41
 	android:configChanges
 		ADDED from /Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/src/main/AndroidManifest.xml:19:13-63
 	android:name

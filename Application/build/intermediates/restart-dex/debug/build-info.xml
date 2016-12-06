@@ -5,68 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="45424204934714"
+    timestamp="8239698118472"
     token="5817118356166136497"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="382" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="2046" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="54" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
     <artifact
-        location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/outputs/apk/Application-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="40736436475225"
+        timestamp="17204051650037"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="45189335315470"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="45279111088640"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="45324451314444"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/builds/debug/45324451314444/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="45338488716879"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/builds/debug/45338488716879/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="45424204934714"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

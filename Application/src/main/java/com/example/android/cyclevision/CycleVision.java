@@ -6,6 +6,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -31,6 +32,9 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.graphics.PorterDuff;
+
+
 
 import com.example.android.common.logger.Log;
 
@@ -44,7 +48,7 @@ public class CycleVision extends Fragment {
     private static final int REQUEST_CONNECT_DEVICE_SECURE = 1;
     private static final int REQUEST_CONNECT_DEVICE_INSECURE = 2;
     private static final int REQUEST_ENABLE_BT = 3;
-
+    private int SCREEN_WIDTH;
     // Layout Views
     private ListView mConversationView;
     private EditText mOutEditText;
@@ -52,7 +56,7 @@ public class CycleVision extends Fragment {
     private TextView mHeartRate;
     private TextView mSpeed;
     private GridLayout mGrid;
-
+    private Button[][] mButtonArray;
     /**
      * Name of the connected device
      */
@@ -151,24 +155,40 @@ public class CycleVision extends Fragment {
         mGrid = (GridLayout) view.findViewById(R.id.viewGrid);
         // add 2D array of buttons
         mGrid.removeAllViews();
-
+        mButtonArray = new Button[15][15];
         Context cntxt = view.getContext();
         DisplayMetrics metrics = new DisplayMetrics();
         ((Activity)cntxt).getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
-        int width = metrics.widthPixels/10;
-        for (int i = 0; i < 100; i++) {
-            Button btn1 = new Button(cntxt);
-            btn1.setMinimumWidth(0);
-            btn1.setMinimumHeight(0);
-            btn1.setMinWidth(width);
-            btn1.setMinHeight(90);
-            btn1.setPadding(0,0,0,0);
-            btn1.setEnabled(false);
-            mGrid.addView(btn1);
+        SCREEN_WIDTH = metrics.widthPixels/15;
 
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 15; j++) {
+                Button btn1 = new Button(cntxt);
+                btn1.setMinimumWidth(0);
+                btn1.setMinimumHeight(0);
+                btn1.setMinWidth(SCREEN_WIDTH);
+                btn1.setMinHeight(65);
+                btn1.setPadding(0,0,0,0);
+                btn1.setEnabled(false);
+                btn1.setId(i*j);
+                btn1.getBackground().setColorFilter(Color.LTGRAY,PorterDuff.Mode.MULTIPLY);
 
+                //btn1.setBackgroundColor(Color.BLUE);
+                mButtonArray[i][j] = btn1;
+                mGrid.addView(btn1);
+            }
         }
+
+        Button User1 = mButtonArray[1][13];
+        Button User2 = mButtonArray[2][13];
+
+        User1.getBackground().setColorFilter(Color.BLUE,PorterDuff.Mode.MULTIPLY);
+        User2.getBackground().setColorFilter(Color.BLUE,PorterDuff.Mode.MULTIPLY);
+
+
+
+
 
     }
 
@@ -208,7 +228,7 @@ public class CycleVision extends Fragment {
      *
      * @param message A string of text to send.
      */
-    private void sendMessage(String message) {
+    public void sendMessage(String message) {
         // Check that we're actually connected before trying anything
         if (mChatService.getState() != CycleVisionService.STATE_CONNECTED) {
             Toast.makeText(getActivity(), R.string.not_connected, Toast.LENGTH_SHORT).show();
@@ -318,6 +338,8 @@ public class CycleVision extends Fragment {
                         Toast.makeText(activity, "Connected to "
                                 + mConnectedDeviceName, Toast.LENGTH_SHORT).show();
                     }
+                    String message = "C";
+                    CycleVision.this.sendMessage(message);
                     break;
                 case Constants.MESSAGE_TOAST:
                     if (null != activity) {
@@ -339,7 +361,7 @@ public class CycleVision extends Fragment {
             // check if the starting character is the one that notifies start of string
             if (Character.isLetter(inputMessage.charAt(0))) {
                 // update display
-                switch(inputMessage.charAt(0)) {
+                switch(Character.toLowerCase(inputMessage.charAt(0))) {
                     case 'h':
                         // update heart
                         mHeartRate.setText("Heart Rate: " +inputMessage.substring(1, 4));
@@ -349,10 +371,19 @@ public class CycleVision extends Fragment {
                         mSpeed.setText("Speed: " +inputMessage.substring(1, 4));
                         break;
                     case 'c':
-                        // update grid
+                    case 'p':
+                        int active = Integer.parseInt(inputMessage.substring(1, 2));
+                        int x = Integer.parseInt(inputMessage.substring(2, 3));
+                        int y = Integer.parseInt(inputMessage.substring(3, 4));
+                        Button btn1 = mButtonArray[x][y];
+                        if (active == 1) {
+                            btn1.getBackground().setColorFilter(Color.RED,PorterDuff.Mode.MULTIPLY);
+                        } else if (active == 0) {
+                            btn1.getBackground().setColorFilter(Color.LTGRAY,PorterDuff.Mode.MULTIPLY);
+                        }
                         break;
                     default:
-                        throw new IllegalArgumentException("Default case reached");
+                        break;
                 }
                 mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + inputMessage.toString());
 

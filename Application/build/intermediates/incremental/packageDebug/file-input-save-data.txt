@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 26 23:55:28 PST 2016
+#Mon Nov 28 16:56:19 PST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_edittext.xml
@@ -11,7 +11,7 @@
 209.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 78.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
 21.set=ANDROID_RESOURCE
-53.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
+53.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_radio.xml
 107.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 159.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 125.set=ANDROID_RESOURCE
@@ -30,7 +30,7 @@
 61.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 40.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
 186.set=ANDROID_RESOURCE
-115.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+115.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_edit_text_material.xml
 49.set=ANDROID_RESOURCE
 92.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
 167.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
@@ -84,10 +84,10 @@
 209.set=ANDROID_RESOURCE
 87.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 10.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
-66.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+66.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
 41.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
 196.set=DEX
-116.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_edit_text_material.xml
+116.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
 93.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 147.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 59.set=ANDROID_RESOURCE
@@ -115,7 +115,7 @@
 130.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
 171.set=ANDROID_RESOURCE
 34.set=ANDROID_RESOURCE
-182.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+182.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
 138.set=ANDROID_RESOURCE
 80.set=ANDROID_RESOURCE
 28.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
@@ -138,7 +138,7 @@
 113.set=ANDROID_RESOURCE
 88.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 11.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_be049f79c3a21161ddf8ee747b5e03e3d8602ab7
-67.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
+67.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
 42.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
 117.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_dark.xml
 94.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_close_item_material.xml
@@ -150,7 +150,7 @@
 144.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
 175.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_0c3736d7dfe382f1fcb19e04b014e450da7e1edf
 120.set=ANDROID_RESOURCE
-2.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_borderless_text_material.xml
+2.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
 150.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 76.set=ANDROID_RESOURCE
 48.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
@@ -168,7 +168,7 @@
 131.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_item_layout.xml
 181.set=DEX
 44.set=ANDROID_RESOURCE
-183.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
+183.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
 148.set=ANDROID_RESOURCE
 90.set=ANDROID_RESOURCE
 201.set=ANDROID_RESOURCE
@@ -208,7 +208,7 @@
 176.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 130.set=ANDROID_RESOURCE
 177.set=ANDROID_RESOURCE
-3.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+3.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_borderless_text_material.xml
 151.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 86.set=ANDROID_RESOURCE
 49.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
@@ -263,7 +263,7 @@
 100.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 140.set=ANDROID_RESOURCE
 187.set=ANDROID_RESOURCE
-4.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_ab_back_material.xml
+4.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
 152.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 101.set=ANDROID_RESOURCE
 96.set=ANDROID_RESOURCE
@@ -290,7 +290,7 @@
 58.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
 33.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color/abc_tint_switch_track.xml
 64.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
-85.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_bottom.xml
+85.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/resources.arsc
 139.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 32.set=DEX
 60.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_in.xml
@@ -301,7 +301,7 @@
 141.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 197.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout-v13/select_dialog_multichoice_material.xml
 120.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
-172.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
+172.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
 39.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 143.set=ANDROID_RESOURCE
 18.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_voice_search_api_material.xml
@@ -318,7 +318,7 @@
 101.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 150.set=ANDROID_RESOURCE
 197.set=ANDROID_RESOURCE
-5.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+5.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_ab_back_material.xml
 153.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 180.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 111.set=ANDROID_RESOURCE
@@ -334,7 +334,7 @@
 159.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_popup_menu_item_layout.xml
 134.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-24.1.1_894dee00a95662f04601846a6b529d5350c219dd/classes.dex
 74.set=ANDROID_RESOURCE
-186.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+186.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
 161.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
 192.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 172.set=ANDROID_RESOURCE
@@ -344,7 +344,7 @@
 59.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
 34.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_multichoice_material.xml
 65.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
-86.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/resources.arsc
+86.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_bottom.xml
 40.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 42.set=ANDROID_RESOURCE
 61.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
@@ -356,7 +356,7 @@
 198.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
 121.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
 0.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
-173.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
+173.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
 107.set=ANDROID_RESOURCE
 153.set=ANDROID_RESOURCE
 19.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_part_chronometer.xml
@@ -387,7 +387,7 @@ count=211
 81.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 135.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
 84.set=ANDROID_RESOURCE
-187.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
+187.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
 110.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines.xml
 162.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple_overlay_action_mode.xml
 193.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
@@ -445,7 +445,7 @@ count=211
 205.set=ANDROID_RESOURCE
 188.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_layout.xml
 111.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
-163.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
+163.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
 194.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 192.set=ANDROID_RESOURCE
 55.set=ANDROID_RESOURCE
@@ -501,7 +501,7 @@ count=211
 189.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_small_material.xml
 112.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_btn_checkable.xml
 19.set=ANDROID_RESOURCE
-164.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
+164.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
 195.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 170.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 65.set=ANDROID_RESOURCE
@@ -587,7 +587,7 @@ count=211
 208.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 77.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_light.xml
 11.set=DEX
-52.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_radio.xml
+52.file=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
 106.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 158.base=/Users/vishesh/Android/Cycle-Vision-Android-Application copy/Application/build/intermediates/res/resources-debug.ap_
 115.set=ANDROID_RESOURCE
